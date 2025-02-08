@@ -1,0 +1,28 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #282c34;
+  padding: 10px;
+}
+
+footer {
+  background-color: #282c34;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
